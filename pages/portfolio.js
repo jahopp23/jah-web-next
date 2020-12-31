@@ -18,7 +18,8 @@ export default function Portfolio() {
 <CustomNav />
 <Container>
    <Row style={{ paddingBottom: '2.00em' }}>
-   <Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
+   <h1 style={{ fontWeight: 'bolder', marginTop: '1.00em', marginLeft: '1.00em' }}>Portfolio</h1>
+   <Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em', borderStyle: 'none' }}>
  <Card.Img variant="top" src="/cln_skin_care.jpg" />
  <Card.Body>
    <Card.Title>CLn Skin Care</Card.Title>
@@ -35,7 +36,7 @@ export default function Portfolio() {
    <Button variant="primary" href="https://www.clnwash.com" target="_blank" >Visit</Button>
  </Card.Body>
 </Card>
-<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
+<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em', borderStyle: 'none' }}>
 <Card.Img variant="top" src="/ez-flo.jpg" />
 <Card.Body>
 <Card.Title>EZ-FLO International</Card.Title>
@@ -52,7 +53,7 @@ export default function Portfolio() {
 <Button variant="primary" href="https://www.ez-flo.net" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
-<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
+<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em', borderStyle: 'none' }}>
 <Card.Img variant="top" src="/thesleepycottage.jpg" />
 <Card.Body>
 <Card.Title>The Sleepy Cottage</Card.Title>
@@ -69,7 +70,7 @@ export default function Portfolio() {
 <Button variant="primary" href="https://www.thesleepycottage.com" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
-<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
+<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em', borderStyle: 'none' }}>
 <Card.Img variant="top" src="/teasdale.jpg" />
 <Card.Body>
 <Card.Title>Teasdale Latin Foods</Card.Title>
@@ -87,7 +88,7 @@ export default function Portfolio() {
 </Card.Body>
 </Card>
 
-<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
+<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em', borderStyle: 'none' }}>
 <Card.Img variant="top" src="/mexene.jpg" />
 <Card.Body>
 <Card.Title>Mexene Chili Powder</Card.Title>
@@ -104,7 +105,7 @@ export default function Portfolio() {
 <Button variant="primary" href="http://www.mexene.com" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
-<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
+<Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em', borderStyle: 'none' }}>
 <Card.Img variant="top" src="/dsisw.jpg" />
 <Card.Body>
 <Card.Title>DSI Southwest</Card.Title>
@@ -121,7 +122,7 @@ export default function Portfolio() {
 <Button variant="primary" href="http://www.dsisw.com/Manufacturers" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
-<Card style={{ textAlign: 'center'}}>
+<Card style={{ textAlign: 'center', borderStyle: 'none'}}>
 <Card.Body>
 <Card.Text>
 <Button style={{ marginLeft: '2.00em' }}variant="primary" target="_blank" href="https://www.github.com/jahopp23">View More on GitHub</Button>

@@ -17,21 +17,23 @@ export default function Contact() {
   <CustomNav />
 
     <Container>
+    <Row>
+    <h1 style={{ fontWeight: 'bolder', marginTop: '1.00em', marginLeft: '1.00em' }}>Contact</h1>
+    <Card style={{ marginTop: '0.00em;', marginBottom: '2.00em', borderStyle: 'none'}}>
 
-    <Card style={{ marginTop: '2.00em;', marginBottom: '2.00em' }}>
+  <Card.Body style={{ textAlign:'center' }}>
 
-  <Card.Body>
-    <Card.Title>Contact Me</Card.Title>
-    <Card.Text>
+    <Card.Text style={{marginLeft: '1.00em'}}>
       Contact me for full-time, part-time, and remote web development work.
-     </Card.Text>
+    </Card.Text>
+
     <Button variant="primary" href="mailto:jahopp@gmail.com" target="_blank" >Email Me</Button>
     <Button style={{ marginLeft: '2.00em' }}variant="primary" target="_blank" href="https://www.linkedin.com/in/john-allen-hopper-874424aa/">LinkedIn</Button>
 
 
   </Card.Body>
 </Card>
-
+</Row>
 </Container>
 <footer className={styles.footer}>
   <a

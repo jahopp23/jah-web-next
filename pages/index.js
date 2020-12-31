@@ -5,6 +5,7 @@ import { Row, Col, Container, Navbar, Nav, NavItem, NavDropdown, MenuItem, Jumbo
 import Link from 'next/link'
 import CustomNav from './CustomNav.js'
 import Helmet from 'react-helmet';
+import { Keyframes, Frame } from "react-keyframes";
 
 
 
@@ -23,17 +24,51 @@ export default function Home() {
 
 
 
-<Jumbotron style={{ marginTop: '2.00em', marginBottom: '2.00em;', backgroundColor: 'white'}}>
+<Jumbotron style={{ marginTop: '2.00em', marginBottom: '2.00em', backgroundColor: 'white'}}>
 
 
  <Container>
+ <Card style={{ borderStyle: 'none', padding: '1.00em'}}>
   <h1 style={{ fontWeight: 'bolder' }}>John A. Hopper</h1>
-  <h2>Web Developer</h2>
+  <h2 style={{  }}>Web Developer</h2>
+<Keyframes style={{fontWeight:'bolder', fontSize:'1.20em'}}>
 
-  <p>
-     I specialize in full-stack, front-end, UI, UX, and ecommerce development.
-  </p>
+    <Frame duration={200}>I</Frame>
+    <Frame duration={200}>I am</Frame>
+      <Frame duration={200}>I am a </Frame>
+      <Frame duration={200}>I am a dev</Frame>
+      <Frame duration={200}>I am a devel</Frame>
+        <Frame duration={200}>I am a developer</Frame>
+        <Frame duration={200}>I am a developer spec</Frame>
+        <Frame duration={200}>I am a developer special</Frame>
+          <Frame duration={200}>I am a developer specializing</Frame>
+            <Frame duration={200}>I am a developer specializing in </Frame>
+              <Frame duration={200}>I am a developer specializing in full</Frame>
+                <Frame duration={200}>I am a developer specializing in full-</Frame>
+                  <Frame duration={200}>I am a developer specializing in full-stack</Frame>
+                   <Frame duration={200}>I am a developer specializing in full-stack,</Frame>
+                    <Frame duration={200}>I am a developer specializing in full-stack, front-</Frame>
+                     <Frame duration={200}>I am a developer specializing in full-stack, front-end</Frame>
+                       <Frame duration={200}>I am a developer specializing in full-stack, front-end,</Frame>
+                        <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI</Frame>
+                         <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI,</Frame>
+                          <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI, UX</Frame>
+                            <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI, UX,</Frame>
+                             <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI, UX, and</Frame>
+                               <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI, UX, and e</Frame>
+                                <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI, UX, and ecom</Frame>
+                                 <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI, UX, and ecommerce</Frame>
+                                  <Frame duration={200}>I am a developer specializing in full-stack, front-end, UI, UX, and ecommerce.</Frame>
+
+
+    <Frame duration={200}>
+      I am a developer specializing in full-stack, front-end, UI, UX, and ecommerce.
+    </Frame>
+  </Keyframes>
+
+  </Card>
   </Container>
+
 
   <Container>
   <ListGroup variant="flush" style={{ textAlign: 'left' }}>
@@ -47,11 +82,12 @@ export default function Home() {
 </ListGroup.Item>
 </ListGroup>
 </Container>
+
 </Jumbotron>
 
 
 
-<div className="bodyMain" style={{ backgroundImage: `url(matrix.gif)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', minHeight: '75vh', maxHeight: '250vh' }}>
+<div className="bodyMain" style={{ backgroundImage: `url(matrix.gif)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', minHeight: '75vh', maxHeight: '200vh' }}>
 
 <Container>
    <Row style={{ paddingBottom: '6.00em' }}>

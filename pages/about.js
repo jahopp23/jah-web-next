@@ -19,13 +19,14 @@ export default function About () {
     <CustomNav />
 
     <Container>
-
-    <Card style={{ marginTop: '2.00em;'}}>
+    <Row>
+    <h1 style={{ fontWeight: 'bolder', marginTop: '1.00em', marginBottom: '1.00em', marginLeft: '1.00em' }}>About</h1>
+    <Card style={{ marginTop: '0.00em', width: '90%', borderStyle: 'none' }} >
 
   <Card.Body>
-    <Card.Title>About Me</Card.Title>
+
     <Card.Text>
-    <p>My journey began at The University of North Texas while studying for a degree in anthropology. My focus was on culture, technology, digital media, and social change. As my anthropological knowledge expanded, so did my interest in the fields of computer science, programming, and software.
+    <p style={{ padding: '1.00em' }}>My journey began at The University of North Texas while studying for a degree in anthropology. My focus was on culture, technology, digital media, and social change. As my anthropological knowledge expanded, so did my interest in the fields of computer science, programming, and software.
 
 In 2016, I enrolled in a professional software development training program at Coding Dojo Dallas. Here, I learned how to construct full stack software applications for the modern web. Using the AGILE development process, I built software applications in HTML, CSS, Python, JavaScript, Python, and Ruby -- all reliant on MVC architecture, RESTful routes, CRUD methods, and responsive web design. During my time at Coding Dojo, I was awarded certificates for both HTML/CSS Website Design (Yellow Belt), and Ruby on Rails Full Stack Web Application (Black Belt).
 
@@ -33,7 +34,7 @@ Since completing Coding Dojo, I have worked as a developer for a local startup c
 
 For me, coding is the ultimate synthesis of creativity, artistic expression, technical skill, problem-solving, and critical thinking. I would not want to work in any other profession because the "work" I do is not perceived as "work" in my eyes. It is pure enjoyment! I am able to build great applications and bring success to business.</p>
 
-<p>Presently, I enjoy learning and building with latest web technologies, such as React and Next (which this website is built with), studying foreign language, and cybersecurity.</p>
+<p style={{ padding: '1.00em' }}>Presently, I enjoy learning and building with latest web technologies, such as React and Next (which this website is built with), studying foreign language, and cybersecurity.</p>
      </Card.Text>
 
      <ListGroup variant="flush" style={{ textAlign: 'left' }}>
@@ -44,7 +45,7 @@ For me, coding is the ultimate synthesis of creativity, artistic expression, tec
     </ListGroup>
   </Card.Body>
 </Card>
-
+</Row>
 </Container>
 <footer className={styles.footer}>
   <a
