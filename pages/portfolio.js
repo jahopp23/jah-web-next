@@ -4,11 +4,17 @@ import React, { Component } from 'react';
 import { Row, Col, Container, Navbar, Nav, NavItem, NavDropdown, MenuItem, Jumbotron, Button, Card, ListGroup } from 'react-bootstrap';
 import Link from 'next/link'
 import CustomNav from './CustomNav.js'
+import Helmet from 'react-helmet';
 
 export default function Portfolio() {
   return (
 
 <>
+
+<Helmet>
+  <title>John A. Hopper Web Developer</title>
+  <meta name='description' content='John A. Hopper Web Developer 2021' />
+</Helmet>
 <CustomNav />
 <Container>
    <Row style={{ paddingBottom: '2.00em' }}>

@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import { Row, Col, Container, Navbar, Nav, NavItem, NavDropdown, MenuItem, Jumbotron, Button, Card, ListGroup } from 'react-bootstrap';
 import Link from 'next/link'
 import CustomNav from './CustomNav.js'
+import Helmet from 'react-helmet';
 
 
 
@@ -12,6 +13,11 @@ export default function Home() {
   return (
 
 <>
+
+<Helmet>
+  <title>John A. Hopper Web Developer</title>
+  <meta name='description' content='John A. Hopper Web Developer 2021' />
+</Helmet>
 
 <CustomNav />
 
