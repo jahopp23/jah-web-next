@@ -8,6 +8,7 @@ import CustomNav from './CustomNav.js'
 
 
 export default function Home() {
+
   return (
 
 <>
@@ -18,6 +19,7 @@ export default function Home() {
 
 <Jumbotron style={{ marginTop: '2.00em', marginBottom: '2.00em;', backgroundColor: 'white'}}>
 
+
  <Container>
   <h1 style={{ fontWeight: 'bolder' }}>John A. Hopper</h1>
   <h2>Web Developer</h2>
@@ -25,24 +27,34 @@ export default function Home() {
   <p>
      I specialize in full-stack, front-end, UI, UX, and ecommerce development.
   </p>
-  <p>
-    <Button variant="primary" href="/portfolio">View My Work</Button>
-    <Button style={{ marginLeft: '2.00em' }}variant="primary" href="/JAH_Resume_2020.docx" download>Download Resume</Button>
-    <Button style={{ marginLeft: '2.00em' }}variant="primary" href="mailto:jahopp@gmail.com">Email Me</Button>
-  </p>
   </Container>
+
+  <Container>
+  <ListGroup variant="flush" style={{ textAlign: 'left' }}>
+<ListGroup.Item><Button variant="default" href="/JAH_Resume_2020.docx" download>Download Resume</Button>
+</ListGroup.Item>
+<ListGroup.Item>
+<Button variant="default" href="/portfolio">View My Work</Button>
+</ListGroup.Item>
+<ListGroup.Item>
+<Button variant="default" href="mailto:jahopp@gmail.com">Email Me</Button>
+</ListGroup.Item>
+</ListGroup>
+</Container>
 </Jumbotron>
 
 
-<div className="bodyMain" style={{ backgroundImage: `url(matrix.gif)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', minHeight: '75vh', maxHeight: '200vh' }}>
+
+<div className="bodyMain" style={{ backgroundImage: `url(matrix.gif)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', minHeight: '75vh', maxHeight: '250vh' }}>
 
 <Container>
-   <Row>
+   <Row style={{ paddingBottom: '6.00em' }}>
 
-      <Col>
+      <Col style={{ display: 'flex', justifyContent: 'center' }}>
       <Card style={{ width: '18rem', marginTop: '6.00em' }}>
        <Card.Body>
-         <Card.Title style={{ textAlign: 'center' }}>Full Stack</Card.Title>
+         <Card.Title style={{ textAlign: 'center', fontWeight: 'bolder' }}>Full Stack</Card.Title>
+
          <ListGroup variant="flush">
     <ListGroup.Item>Web Server, Database, and Views</ListGroup.Item>
     <ListGroup.Item>API Integration</ListGroup.Item>
@@ -53,10 +65,10 @@ export default function Home() {
        </Card.Body>
       </Card>
       </Col>
-      <Col>
+      <Col style={{ display: 'flex', justifyContent: 'center' }}>
       <Card style={{ width: '18rem',  marginTop: '6.00em' }}>
        <Card.Body>
-         <Card.Title style={{ textAlign: 'center' }}>Front End</Card.Title>
+         <Card.Title style={{ textAlign: 'center', fontWeight: 'bolder' }}>Front End</Card.Title>
          <ListGroup variant="flush">
     <ListGroup.Item>Mobile-first, responsive, scalable web applications</ListGroup.Item>
     <ListGroup.Item>HTML5, CSS3, SASS, Liquid, PHP, JavaScript, JSX, JQuery</ListGroup.Item>
@@ -71,10 +83,10 @@ export default function Home() {
 
 
       </Col>
-      <Col>
+      <Col style={{ display: 'flex', justifyContent: 'center' }}>
       <Card style={{ width: '18rem',  marginTop: '6.00em' }}>
        <Card.Body>
-         <Card.Title style={{ textAlign: 'center' }}>Ecommerce</Card.Title>
+         <Card.Title style={{ textAlign: 'center', fontWeight: 'bolder' }}>Ecommerce</Card.Title>
          <ListGroup variant="flush">
     <ListGroup.Item>Advanced Shopify Development, WordPress, Amazon Seller, FB, IG</ListGroup.Item>
     <ListGroup.Item>SEO, Analytics, Tag Manager, Marketing Hub</ListGroup.Item>

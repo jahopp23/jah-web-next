@@ -8,10 +8,10 @@ export default class CustomNav extends Component {
   render () {
     return (
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand style={{ marginLeft: '2.00em', fontWeight: 'bolder' }} href="/">JAH Web <i className="fa fa-globe" aria-hidden="true"></i></Navbar.Brand>
+        <Navbar.Brand style={{ marginLeft: '1.00em', fontWeight: 'bolder' }} href="/">JAH Web <i className="fa fa-globe" aria-hidden="true"></i></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto" style={{ marginLeft: '1.00em' }}>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>

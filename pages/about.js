@@ -28,9 +28,13 @@ For me, coding is the ultimate synthesis of creativity, artistic expression, tec
 
 <p>Presently, I enjoy learning and building with latest web technologies, such as React and Next (which this website is built with), studying foreign language, and cybersecurity.</p>
      </Card.Text>
-    <Button variant="primary" href="mailto:jahopp@gmail.com">Email Me</Button>
-    <Button style={{ marginLeft: '2.00em' }}variant="primary" href="https://www.linkedin.com/in/john-allen-hopper-874424aa/">LinkedIn</Button>
 
+     <ListGroup variant="flush" style={{ textAlign: 'left' }}>
+
+    <ListGroup.Item><Button variant="primary" href="mailto:jahopp@gmail.com">Email Me</Button></ListGroup.Item>
+    <ListGroup.Item><Button variant="primary" target="_blank" href="https://www.linkedin.com/in/john-allen-hopper-874424aa/">LinkedIn</Button></ListGroup.Item>
+    <ListGroup.Item><Button variant="primary" target="_blank" href="https://www.github.com/jahopp23">GitHub</Button></ListGroup.Item>
+    </ListGroup>
   </Card.Body>
 </Card>
 

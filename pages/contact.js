@@ -19,8 +19,8 @@ export default function Contact() {
     <Card.Text>
       Contact me for full-time, part-time, and remote web development work.
      </Card.Text>
-    <Button variant="primary" href="mailto:jahopp@gmail.com">Email Me</Button>
-    <Button style={{ marginLeft: '2.00em' }}variant="primary" href="https://www.linkedin.com/in/john-allen-hopper-874424aa/">LinkedIn</Button>
+    <Button variant="primary" href="mailto:jahopp@gmail.com" target="_blank" >Email Me</Button>
+    <Button style={{ marginLeft: '2.00em' }}variant="primary" target="_blank" href="https://www.linkedin.com/in/john-allen-hopper-874424aa/">LinkedIn</Button>
 
 
   </Card.Body>

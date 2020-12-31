@@ -11,7 +11,7 @@ export default function Portfolio() {
 <>
 <CustomNav />
 <Container>
-   <Row>
+   <Row style={{ paddingBottom: '2.00em' }}>
    <Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
  <Card.Img variant="top" src="/cln_skin_care.jpg" />
  <Card.Body>
@@ -26,7 +26,7 @@ export default function Portfolio() {
     <Card.Text>
     2020
     </Card.Text>
-   <Button variant="primary" href="https://www.clnwash.com">Visit</Button>
+   <Button variant="primary" href="https://www.clnwash.com" target="_blank" >Visit</Button>
  </Card.Body>
 </Card>
 <Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
@@ -43,7 +43,7 @@ export default function Portfolio() {
  <Card.Text>
  2018
  </Card.Text>
-<Button variant="primary" href="https://www.ez-flo.net">Visit</Button>
+<Button variant="primary" href="https://www.ez-flo.net" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
 <Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
@@ -60,7 +60,7 @@ export default function Portfolio() {
  <Card.Text>
  2018
  </Card.Text>
-<Button variant="primary" href="https://www.thesleepycottage.com">Visit</Button>
+<Button variant="primary" href="https://www.thesleepycottage.com" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
 <Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
@@ -77,7 +77,7 @@ export default function Portfolio() {
  <Card.Text>
  2017
  </Card.Text>
-<Button variant="primary" href="http://www.teasdalelatinfoods.com">Visit</Button>
+<Button variant="primary" href="http://www.teasdalelatinfoods.com" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
 
@@ -95,7 +95,7 @@ export default function Portfolio() {
  <Card.Text>
  2017
  </Card.Text>
-<Button variant="primary" href="http://www.mexene.com">Visit</Button>
+<Button variant="primary" href="http://www.mexene.com" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
 <Card style={{ width: '100%', marginTop: '2.00em', marginBottom: '2.00em' }}>
@@ -112,10 +112,17 @@ export default function Portfolio() {
  <Card.Text>
  2019
  </Card.Text>
-<Button variant="primary" href="http://www.dsisw.com/Manufacturers">Visit</Button>
+<Button variant="primary" href="http://www.dsisw.com/Manufacturers" target="_blank">Visit</Button>
 </Card.Body>
 </Card>
+<Card style={{ textAlign: 'center'}}>
+<Card.Body>
+<Card.Text>
+<Button style={{ marginLeft: '2.00em' }}variant="primary" target="_blank" href="https://www.github.com/jahopp23">View More on GitHub</Button>
 
+</Card.Text>
+</Card.Body>
+</Card>
    </Row>
 </Container>
 <footer className={styles.footer}>
