@@ -72,7 +72,7 @@ export default function Home() {
 
   <Container>
   <ListGroup variant="flush" style={{ textAlign: 'left' }}>
-<ListGroup.Item><Button variant="default" href="/JAH_Resume_2020.docx" download>Download Resume</Button>
+<ListGroup.Item><Button variant="default" href="/JAH_Resume_2021.docx" download>Download Resume</Button>
 </ListGroup.Item>
 <ListGroup.Item>
 <Button variant="default" href="/portfolio">View My Work</Button>
