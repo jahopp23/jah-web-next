@@ -1,11 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React, { Component } from 'react';
-import { Row, Col, Container, Navbar, Nav, NavItem, NavDropdown, MenuItem, Jumbotron, Button, Card, ListGroup } from 'react-bootstrap';
+import { Row, Col, Container, Navbar, Nav, NavItem, NavDropdown, MenuItem, Jumbotron, Button, Card, ListGroup, Alert } from 'react-bootstrap';
 import Link from 'next/link'
 import CustomNav from './CustomNav.js'
 import Helmet from 'react-helmet';
 import { Keyframes, Frame } from "react-keyframes";
+import { ExternalLink } from 'react-external-link';
+
 
 
 
@@ -21,6 +23,14 @@ export default function Home() {
 </Helmet>
 
 <CustomNav />
+<Alert variant="success" style={{ textAlign: 'center' }}>
+
+  <p>
+    Check out <ExternalLink href="https://react-bitcoin-tracker.vercel.app/" style={{ fontWeight: 'bolder', textDecoration: 'none', color: '#0f5132' }}>React Bitcoin Tracker</ExternalLink> to view realtime BTC pricing! </p>
+
+  
+ 
+</Alert>
 
 
 
